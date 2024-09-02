@@ -1,3 +1,21 @@
 git version // Para ver version de git
 
 git init //Creamos el repositorio 
+git add . // Va tomar todos los cambiar
+git commit -m "nombre de commit // Etiquetamos el cambio +
+
+:q! // Para salir del vim
+----------------------------------------------------------------------
+para conectar GIT A GITHUB 
+
+git config --global user.name "Gabriel-Oyola" 
+git config --global user.email "gabriel_oyola@outlook.com" 
+
+----------------------------------------------------------------------
+
+Para conectar con un repositorio remoto 
+
+git remote add origin https://github.com/Gabriel-Oyola/probandoGit-VisualStudioCode.git
+git log --oneline // Verificamos cual es nuestra rama actual 
+git branch -M master // Elegimos la rama 
+git push -u origin master // Subimos la rama con sus cambios
