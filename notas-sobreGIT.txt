@@ -1,0 +1,3 @@
+git version // Para ver version de git
+
+git init //Creamos el repositorio 
