@@ -3,6 +3,7 @@ git version // Para ver version de git
 git init //Creamos el repositorio 
 git add . // Va tomar todos los cambiar
 git commit -m "nombre de commit // Etiquetamos el cambio +
+git push //Para subir los cambios 
 
 :q! // Para salir del vim
 ----------------------------------------------------------------------
@@ -16,6 +17,22 @@ git config --global user.email "gabriel_oyola@outlook.com"
 Para conectar con un repositorio remoto 
 
 git remote add origin https://github.com/Gabriel-Oyola/probandoGit-VisualStudioCode.git
-git log --oneline // Verificamos cual es nuestra rama actual 
+git log --oneline // Verificamos cual es nuestra rama actual y los cambios
+que se estan efectuando en el respositorio
 git branch -M master // Elegimos la rama 
 git push -u origin master // Subimos la rama con sus cambios
+
+
+-----------------------------------------------------------------
+Para revisar cambios anteriores  
+
+git checkout (id del  commit) 
+
+------------------------------------------------------------------
+Para cambiar el nombre de la rama 
+
+git branch -m (Nombre de rama actual) (Nombre nuevo que queremos poner) 
+
+ejemplo: 
+
+git branch -m master main 
