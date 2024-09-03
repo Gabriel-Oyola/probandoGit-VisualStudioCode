@@ -36,3 +36,17 @@ git branch -m (Nombre de rama actual) (Nombre nuevo que queremos poner)
 ejemplo: 
 
 git branch -m master main 
+
+
+-------------------------------------------------------------------- 
+
+Como eliminar un commit sin problemas 
+
+git revert (id de commit)
+
+------------------------------------------------------------------- 
+
+Para cambiar a otra rama 
+
+git branch // Para saber que rama estoy 
+git branch (nombre de la rama que quiero crear) // Para crear rama 
